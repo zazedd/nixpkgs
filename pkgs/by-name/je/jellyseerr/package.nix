@@ -18,10 +18,10 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "jellyseerr";
-  version = "2.7.3";
+  version = "2.7.4";
 
   src = fetchFromGitHub {
-    owner = "Fallenbagel";
+    owner = "zazed";
     repo = "jellyseerr";
     tag = "v${finalAttrs.version}";
     hash = "sha256-a3lhQ33Zb+vSu1sQjuqO3bITiQEIOVyFTecmJAhJROU=";
